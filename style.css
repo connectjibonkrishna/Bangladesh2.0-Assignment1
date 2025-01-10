@@ -4,7 +4,7 @@
 }
 
 body {
-    margin: 0 160px;
+    margin: 0 100px;
     background-color: #F1F1F3;
 }
 
@@ -170,4 +170,36 @@ body {
     display: flex;
     gap: 12px;
     margin: 12px 0;
+}
+
+/* Donate section styles */
+.donate{
+    padding: 0 100px;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.amount{
+    display: flex;
+    justify-content: space-between;
+    margin: 32px 0;
+}
+
+.amount-card{
+    /* height: 128px; */
+    padding: 40px;
+    background-color: #FFFFFF;
+    border: 2px solid rgba(14, 14, 14, 15%);
+    border-radius: 16px;
+}
+
+.input-field{
+    display: block;
+    height: 64px;
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid rgba(14, 14, 14, 15%);
+    text-align: center;
+    font-size: 20px;
+    color: rgba(14, 14, 14, 30%);
 }
