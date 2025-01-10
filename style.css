@@ -4,7 +4,8 @@
 }
 
 body {
-    margin: 0 100px;
+    margin: 0 85px;
+    /* width: 90vw; */
     background-color: #F1F1F3;
 }
 
@@ -174,13 +175,14 @@ body {
 
 /* Donate section styles */
 .donate{
-    padding: 0 100px;
+    padding: 0 80px;
     text-align: center;
     margin-bottom: 80px;
 }
 
 .amount{
     display: flex;
+    gap: 24px;
     justify-content: space-between;
     margin: 32px 0;
 }
@@ -202,4 +204,16 @@ body {
     text-align: center;
     font-size: 20px;
     color: rgba(14, 14, 14, 30%);
+}
+
+/* Hover effect styles */
+button:hover {
+    cursor: pointer;
+    box-shadow: 0 0 15px rgba(0, 0, 255, 0.7);
+}
+
+.amount-card:hover{
+    cursor: pointer;
+    background: #C6E4D6;
+    box-shadow: 0 0 15px rgba(155, 155, 170, 0.7);
 }
