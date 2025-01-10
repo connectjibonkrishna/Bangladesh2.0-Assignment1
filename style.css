@@ -1,7 +1,6 @@
 * {
     margin: 0;
     color: #0E0E0E;
-
 }
 
 body {
@@ -57,6 +56,18 @@ body {
     color: #FFFFFF;
     padding: 11px 20px;
     font-weight: 600;
+}
+
+.news-btn{
+    height:48px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #FFFFFF;
+    background-color: #006A50;
+    border: none;
+    border-radius: 8px;
+    padding: 13px 26px;
+    margin-top: 32px;
 }
 
 /* Hero section styles */
@@ -124,4 +135,39 @@ body {
 
 .card-btn3{
     background-color: #FFC239;
+}
+
+/* News Section Styles */
+.news{
+    margin: 80px 0;
+}
+
+.news-cards{
+    margin-top: 32px;
+}
+
+.news-card-title{
+    font-size: 32px;
+    font-weight: bold;
+    opacity: 80%;
+    margin-bottom: 12px;
+}
+
+.news-card{
+    background-color: #FFFFFF;
+    display: flex;
+    margin-bottom: 24px;
+    border-radius: 24px;
+    padding: 48px;
+    gap: 32px;
+}
+
+.news-card-img{
+    border-radius: 24px;
+}
+
+.news-date-time{
+    display: flex;
+    gap: 12px;
+    margin: 12px 0;
 }
