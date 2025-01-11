@@ -15,7 +15,7 @@ body {
     font-style: normal;
     font-variation-settings:
       "wdth" 100;
-  }
+}
 
 /* Shared Styles */
 .text-sub-title{
@@ -181,6 +181,49 @@ body {
     background-color: #FFC239;
 }
 
+/* Opinion Section Styles */
+.opinion-section{
+    margin-top: 80px
+}
+.ques-container{
+    background-color: #FFFFFF;
+    border-radius: 16px;
+    padding: 32px;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    border: rgba(14, 14, 14, 15%);
+}
+
+.table-cap{
+    display: flex;
+    justify-content: space-between;
+}
+
+th, td{
+    padding: 24px;
+}
+
+td{
+    color: #0E0E0E;
+    font-weight: 600;
+}
+
+.dropdown{
+    color: #0E0E0E;
+    font-weight: 600;
+    height: 44px;
+    border-radius: 4px;
+    text-align: center;
+    padding: 12.5px 16px 12.5px 16.5px;
+}
+
+.col-2{
+    width: 170px;
+}
+
 /* News Section Styles */
 .news{
     margin: 80px 0;
@@ -234,7 +277,6 @@ body {
 }
 
 .amount-card{
-    /* height: 128px; */
     padding: 40px;
     background-color: #FFFFFF;
     border: 2px solid rgba(14, 14, 14, 15%);
