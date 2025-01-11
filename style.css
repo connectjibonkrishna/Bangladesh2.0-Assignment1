@@ -324,3 +324,31 @@ button:hover {
     background: #C6E4D6;
     box-shadow: 0 0 15px rgba(155, 155, 170, 0.7);
 }
+
+/* Footer Section Styles */
+footer .nav-title{
+    margin-top: 50px;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FFFFFF;
+    margin-left: -100px;
+    margin-right: -100px;
+}
+
+footer hr{
+    border: none;
+    height: 1.5px;
+    background-color: rgba(14, 14, 14, 10%);
+    width: 75%;
+    margin: 32px 0;
+}
+
+.social-container{
+    margin-bottom: 50px;
+    display: flex;
+    gap: 23px;
+}
